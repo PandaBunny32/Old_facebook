@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.toolbar{
+  background-color: #4267b2;
+  padding-top: 0.5em;
+  padding-bottom: 0.1em;
+}
+
+.logo {
+
+  margin-left: 8em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toolbar-leftside {
+list-style: none;
+
+}
+
+.navlistitem {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.icons-tool{
+  margin-left: 9px;
+}
+
+.search-friends{
+  width: 32em;
+  height: 2.2em;
+  margin-left: 9px;
+  position: relative;
+  top: -0.2em;
+
+}
+
+.mag{
+  position: relative;
+  left: -2em;
+  bottom: -7px;
+}
+
+.asd{
+  background-image: url("mag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2.2em;
+  width: 2em;
+  position: relative;
+  left: -2.35em;
+  bottom: -3px;
+
+}
